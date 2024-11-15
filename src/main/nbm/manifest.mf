@@ -1,9 +1,4 @@
 Manifest-Version: 1.0
-OpenIDE-Module: de.markiewb.netbeans.plugins.codeoutline
-OpenIDE-Module-Name: Code outline
-OpenIDE-Module-Specification-Version: 2.0-SNAPSHOT
-OpenIDE-Module-Layer: de/markiewb/netbeans/plugins/outline/layer.xml
 OpenIDE-Module-Localizing-Bundle: de/markiewb/netbeans/plugins/outline/Bundle.properties
-OpenIDE-Module-Requires: org.openide.windows.WindowManager
 OpenIDE-Module-Display-Category: Editing
 

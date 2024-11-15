@@ -157,26 +157,23 @@ public final class CodeoutlineOptionsPanel extends javax.swing.JPanel {
                                     .addComponent(jLabel1)
                                     .addComponent(lbFontSize))))
                         .addGap(22, 22, 22)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(cbPosition, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(spFontSize, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(spWidth, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(cbPosition, javax.swing.GroupLayout.PREFERRED_SIZE, 78, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(spFontSize, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)
+                            .addComponent(spWidth, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(lbDarkening)
                         .addGap(18, 18, 18)
                         .addComponent(cbDarkening, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(14, 14, 14)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel4)
                     .addComponent(jLabel3)
                     .addComponent(jLabel2)
                     .addComponent(jLabel5))
-                .addContainerGap(233, Short.MAX_VALUE))
+                .addContainerGap(212, Short.MAX_VALUE))
         );
-
-        layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {spFontSize, spWidth});
-
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
